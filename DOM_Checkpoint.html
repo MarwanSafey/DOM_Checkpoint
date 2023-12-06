@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./DOM_Checkpoint.css" />
+    <title>Shopping Chart</title>
+  </head>
+  <body>
+    <div>
+      <div class="item">
+        <!-- Item details -->
+        <span class="item-name">Item 1</span>
+        <img src="./1.JPG" alt="gloves num 1" />
+        <br />
+        <button class="delete-btn">Delete</button>
+        <button class="like-btn">Like</button>
+        <br />
+        <span class="quantity"
+          >Quantity: <button class="minus-btn">-</button
+          ><span class="count">0</span><button class="plus-btn">+</button></span
+        >
+        <span class="item-price">$10</span>
+      </div>
+
+      <!-- Separte Between Items -->
+      <br /><br />
+      <hr />
+      <br />
+      <!-- Separte Between Items -->
+
+      <div class="item">
+        <!-- Item details -->
+        <span class="item-name">Item 2</span>
+        <img src="./2.JPG" alt="gloves num 2" />
+        <br />
+        <button class="delete-btn">Delete</button>
+        <button class="like-btn">Like</button>
+        <br />
+        <span class="quantity"
+          >Quantity: <button class="minus-btn">-</button
+          ><span class="count">0</span><button class="plus-btn">+</button></span
+        >
+        <span class="item-price">$10</span>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+
+    <div class="total">
+      <span>Total Price: <span id="total-price">$0</span></span>
+    </div>
+
+    <!-- Include JavaScript -->
+    <script src="./DOM_Checkpoint.js"></script>
+  </body>
+</html>
